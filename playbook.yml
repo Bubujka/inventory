@@ -3,7 +3,7 @@
   tasks:
     - name: Установка пакетов
       become: true
-
       apt:
         pkg:
           - youtube-dl
+          - openjdk-8-jre
