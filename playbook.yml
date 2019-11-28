@@ -1,0 +1,9 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Установка пакетов
+      become: true
+
+      apt:
+        pkg:
+          - youtube-dl
