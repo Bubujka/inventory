@@ -1,0 +1,17 @@
+---
+- apt:
+    pkg:
+      - libx11-dev
+      - libxinerama-dev
+      - libxft-dev
+- git:
+    repo: 'https://github.com/bubujka/dmenu.git'
+    dest: ~/.db/prj/dmenu
+- shell: |
+    cd ~/.db/prj/dmenu
+    make
+- shell: |
+    cd /home/bubujka/.db/prj/dmenu
+    make install
+  become: true
+

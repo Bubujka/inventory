@@ -10,3 +10,4 @@
           - libx11-dev
           - libxinerama-dev
           - libxft-dev
+    - import_tasks: tasks/dmenu.yml
