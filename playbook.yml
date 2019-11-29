@@ -9,4 +9,5 @@
           - openjdk-8-jre
           - feh
           - gthumb
+    - import_tasks: tasks/gtk-bookmarks.yml
     - import_tasks: tasks/dmenu.yml
