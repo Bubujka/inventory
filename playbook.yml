@@ -7,4 +7,6 @@
         pkg:
           - youtube-dl
           - openjdk-8-jre
+          - feh
+          - gthumb
     - import_tasks: tasks/dmenu.yml
