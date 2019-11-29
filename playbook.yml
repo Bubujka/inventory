@@ -7,3 +7,6 @@
         pkg:
           - youtube-dl
           - openjdk-8-jre
+          - libx11-dev
+          - libxinerama-dev
+          - libxft-dev
