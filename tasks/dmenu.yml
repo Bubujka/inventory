@@ -4,6 +4,7 @@
       - libx11-dev
       - libxinerama-dev
       - libxft-dev
+  become: true
 - git:
     repo: 'https://github.com/bubujka/dmenu.git'
     dest: ~/.db/prj/dmenu
