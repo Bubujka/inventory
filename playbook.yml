@@ -13,9 +13,8 @@
           - anki
           - vim
           - stow
-          - console-cyrillic
-          - tmux
           - git
+    - import_tasks: tasks/tty.yml
     - import_tasks: tasks/bu.bin.yml
     - import_tasks: tasks/fzf.yml
     - import_tasks: tasks/gtk-bookmarks.yml

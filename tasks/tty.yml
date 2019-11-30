@@ -1,0 +1,6 @@
+---
+- apt:
+    pkg:
+      - console-cyrillic
+      - tmux
+  become: true
