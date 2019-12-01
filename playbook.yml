@@ -14,6 +14,8 @@
           - vim
           - stow
           - git
+          - mutt
+          - pass
     - import_tasks: tasks/tty.yml
     - import_tasks: tasks/bu.bin.yml
     - import_tasks: tasks/fzf.yml
