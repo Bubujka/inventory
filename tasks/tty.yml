@@ -4,3 +4,6 @@
       - console-cyrillic
       - tmux
   become: true
+- shell: |
+    kbdrate -r 30 -d 250
+  become: true
