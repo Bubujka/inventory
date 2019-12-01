@@ -1,0 +1,9 @@
+---
+- become: true
+  apt:
+    pkg:
+      - pass
+- git:
+    repo: git@bitbucket.org:bubujka/prj.git
+    dest: ~/.password-store
+    version: password-store
