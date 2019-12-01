@@ -1,4 +1,4 @@
 ---
 - git:
-    repo: 'https://github.com/bubujka/bu.bin.git'
+    repo: 'git@github.com:bubujka/bu.bin.git'
     dest: ~/.bu.bin
