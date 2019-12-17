@@ -8,6 +8,7 @@
         pkg:
           - youtube-dl
           - openjdk-8-jre
+          - filezilla
           - feh
           - gthumb
           - anki
