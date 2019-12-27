@@ -6,6 +6,9 @@
       become: true
       apt:
         pkg:
+          - silversearcher-ag
+          - acpi
+          - lm-sensors
           - ruby
           - siege
           - libreoffice-calc
