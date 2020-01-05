@@ -1,0 +1,12 @@
+---
+- name: Установка nvm
+  shell: "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash"
+  args:
+    warn: false
+- name: Дефолтные пакеты для каждой ноды
+  copy:
+    dest: ~/.nvm/default-packages
+    content: |
+      foreman
+      npx
+      yarn

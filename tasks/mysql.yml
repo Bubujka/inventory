@@ -1,0 +1,12 @@
+- import_role:
+    name: geerlingguy.mysql
+  vars:
+    mysql_root_password: qwerty
+- copy:
+    content: |
+      [client]
+      user=root
+      password=qwerty
+    owner: bubujka
+    group: bubujka
+    dest: /home/bubujka/.my.cnf
