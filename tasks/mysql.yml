@@ -2,6 +2,7 @@
     name: geerlingguy.mysql
   vars:
     mysql_root_password: qwerty
+  become: true
 - copy:
     content: |
       [client]
