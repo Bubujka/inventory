@@ -1,0 +1,47 @@
+---
+- name: Установка пакетов
+  become: true
+  apt:
+    pkg:
+      - acpi
+      - anki
+      - aptitude
+      - audacity
+      - chromium-browser
+      - composer
+      - curl
+      - feh
+      - filezilla
+      - gimp
+      - git
+      - gthumb
+      - htop
+      - libreoffice-calc
+      - libssl-dev
+      - lm-sensors
+      - maim
+      - moc
+      - mutt
+      - mysql-workbench
+      - nfs-common
+      - nfs-kernel-server
+      - nmap
+      - openjdk-8-jre
+      - pass
+      - portmap
+      - pv
+      - ruby
+      - siege
+      - silversearcher-ag
+      - smartmontools
+      - stow
+      - vim
+      - virtualbox
+      - virtualbox-dkms
+      - vlc
+      - vlc-bin
+      - w3m
+      - wine-stable
+      - xclip
+      - youtube-dl
+      - zeal

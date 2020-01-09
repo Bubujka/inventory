@@ -2,31 +2,13 @@
   connection: local
   tasks:
     - import_tasks: tasks/upgrade.yml
-    - name: Установка пакетов
-      become: true
-      apt:
-        pkg:
-          - silversearcher-ag
-          - acpi
-          - lm-sensors
-          - ruby
-          - siege
-          - libreoffice-calc
-          - youtube-dl
-          - gimp
-          - openjdk-8-jre
-          - filezilla
-          - feh
-          - gthumb
-          - anki
-          - vim
-          - stow
-          - git
-          - mutt
-          - pass
+    - import_tasks: tasks/pkg.yml
+    - import_tasks: tasks/vagrant.yml
     - import_tasks: tasks/pass.yml
     - import_tasks: tasks/tty.yml
+    - import_tasks: tasks/nvm.yml
     - import_tasks: tasks/bu.bin.yml
     - import_tasks: tasks/fzf.yml
     - import_tasks: tasks/gtk-bookmarks.yml
     - import_tasks: tasks/dmenu.yml
+    - import_tasks: tasks/mysql.yml
