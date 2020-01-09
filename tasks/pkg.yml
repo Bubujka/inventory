@@ -3,6 +3,8 @@
   become: true
   apt:
     pkg:
+      - nmap
+      - libssl-dev
       - anki
       - aptitude
       - audacity
