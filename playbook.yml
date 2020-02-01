@@ -1,6 +1,17 @@
 - hosts: localhost
   connection: local
   tasks:
+    - apt_key:
+        keyserver: keyserver.ubuntu.com
+        id: E1B39B6EF6DDB96564797591AE33835F504A1A25
+      become: true
+    - apt_repository:
+        repo: ppa:wireguard/wireguard
+      become: true
+    - apt:
+        name:
+          - wireguard
+      become: true
     - import_tasks: tasks/upgrade.yml
     - import_tasks: tasks/pkg.yml
     - import_tasks: tasks/vagrant.yml
