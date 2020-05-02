@@ -1,0 +1,13 @@
+---
+- cron:
+    name: "Настройка синхронизации вики"
+    minute: "*/60"
+    job: ". ~/.ssh_agent_info ; . ~/.password ; cd ~/.db/wiki ; commit-or-notify zendzirou@gmail.com"
+- cron:
+    name: "Настройка синхронизации password-store"
+    minute: "*/60"
+    job: ". ~/.ssh_agent_info ; . ~/.password ; cd ~/.password-store ; commit-or-notify zendzirou@gmail.com"
+- cron:
+    name: "Personal backuper"
+    minute: "*/60"
+    job: ". ~/.ssh_agent_info ; . ~/.password ; ~/.db/backup"
