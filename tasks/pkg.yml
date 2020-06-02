@@ -5,43 +5,140 @@
     pkg:
       - acpi
       - anki
+      - ansible
+      - apache2-utils
+      - apt-cacher-ng
       - aptitude
+      - ardour
+      - audacious
       - audacity
+      - build-essential
       - chromium-browser
+      - cifs-utils
+      - cloud-image-utils
       - composer
+      - console-cyrillic
       - curl
+      - darktable
+      - discord
+      - dnsmasq
+      - ethtool
       - feh
+      - ffmpeg
       - filezilla
+      - gcc
       - gimp
       - git
+      - gitstats
+      - gnucash
+      - google-chrome-stable
+      - gphoto2
       - gthumb
       - htop
+      - httping
+      - i3
+      - i3-wm
+      - jq
+      - kcachegrind
+      - kdenlive
+      - krita
+      - libfontconfig1-dev
+      - libguestfs-tools
+      - libhidapi-dev
+      - liblwjgl-java
+      - libnss3-tools
+      - libreoffice-base
       - libreoffice-calc
+      - libreoffice-mysql-connector
       - libssl-dev
+      - libx11-dev
+      - libxft-dev
+      - libxinerama-dev
+      - libxml2-utils
+      - lightdm
       - lm-sensors
+      - lxd
       - maim
+      - mitmproxy
       - moc
       - mutt
+      - mysql-common
+      - mysql-server
       - mysql-workbench
+      - ncdu
+      - net-tools
       - nfs-common
       - nfs-kernel-server
       - nmap
+      - nvidia-driver-430
+      - nvidia-prime
+      - obs-studio
       - openjdk-8-jre
+      - openshot
+      - openssh-server
       - pass
+      - pavucontrol
+      - php7.2-cli
+      - php7.2-curl
+      - php7.2-gd
+      - php7.2-mbstring
+      - php7.2-mysql
+      - php7.2-xml
+      - php7.2-zip
+      - php-imagick
+      - php-xdebug
+      - pinentry-tty
       - portmap
       - pv
+      - pwgen
+      - python3-netaddr
+      - python3-pip
+      - python-apt
+      - python-mysqldb
+      - python-netaddr
+      - python-pip
+      - qemu
+      - rpcbind
       - ruby
+      - ruby-dev
+      - s4cmd
+      - samba
+      - sc
+      - scim
+      - screen
+      - shadowsocks-libev
       - siege
       - silversearcher-ag
       - smartmontools
+      - smbclient
+      - speedtest-cli
+      - sshfs
       - stow
+      - stress
+      - sur5r-keyring
+      - tmux
+      - v4l2loopback-dkms
+      - v4l2loopback-utils
+      - vagrant
       - vim
+      - vim-gtk3
+      - virt-manager
       - virtualbox
       - virtualbox-dkms
       - vlc
       - vlc-bin
       - w3m
+      - whois
       - wine-stable
+      - wireguard
+      - wkhtmltopdf
       - xclip
+      - xfonts-cyrillic
+      - xmlindent
+      - xterm
       - youtube-dl
+      - zabbix-agent
+      - zabbix-get
+      - zabbix-sender
       - zeal
+      - zoom
