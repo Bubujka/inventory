@@ -8,6 +8,7 @@
 - git:
     repo: 'https://github.com/bubujka/dmenu.git'
     dest: ~/.db/prj/dmenu
+    update: false
 - shell: |
     cd ~/.db/prj/dmenu
     make

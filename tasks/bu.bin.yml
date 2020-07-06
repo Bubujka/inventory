@@ -1,4 +1,5 @@
 ---
 - git:
     repo: 'git@github.com:bubujka/bu.bin.git'
+    update: false
     dest: ~/.bu.bin
